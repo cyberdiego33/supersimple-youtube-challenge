@@ -1,0 +1,150 @@
+:root {
+  --search-bar-border: rgb(204, 204, 204);
+  --search-icon-bc: rgb(247, 247, 247);
+  --voice-search: rgb(248, 248, 248);
+}
+
+
+
+
+/* roboto-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/roboto-v47-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* roboto-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/roboto-v47-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* roboto-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/roboto-v47-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* roboto-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    src: url('fonts/roboto-v47-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* roboto-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/roboto-v47-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Arial;
+}
+
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 57px;
+  padding: 0 2rem;
+  border: 1px solid var(--search-bar-border);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header-flex {
+  display: flex;
+}
+
+.header-icons {
+  width: 24px;
+  height: 24px;
+}
+
+.left-items {
+  width: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-items {
+  width: 182px;
+  justify-content: space-between;
+  align-items: center;
+}
+.youtube-logo {
+  width: 90px;
+  height: 20px;
+}
+.channel-profile {
+  width: 32px;
+  height: 32px;
+}
+
+.middle-items {
+  width: 358px;
+}
+.search-bar {
+  display: flex;
+  flex: 1;
+  border: 1px solid var(--search-bar-border);
+}
+.search-bar input {
+  width: 20px;
+  flex: 1;
+  height: 40px;
+  padding: 1px 2px;
+  border: none;
+}
+.search-icon {
+  padding: 4px 15px;
+  width: 64px;
+  height: 40px;
+  border-left: 1px solid var(--search-bar-border);
+  background-color: var(--search-icon-bc);
+}
+.search-icon img {
+  height: 32px;
+  width: 32px;
+}
+.voice-search {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 30px;
+  background-color: var(--voice-search);
+}
+.voice-search img {
+  width: 24px;
+  height: 24px;
+}
