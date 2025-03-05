@@ -1,0 +1,32 @@
+@import url("general.css");
+
+.sidebar {
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    width: 72px;
+
+    z-index: 100;
+    text-align: center;
+    background-color: #fff;
+}
+.sideicons-div {
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sideicons-div:hover {
+    background-color: #ebebeb;
+}
+.sideicons-div img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+}
+.sideicons-div p {
+    font-size: 10px;
+}

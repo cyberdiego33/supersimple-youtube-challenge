@@ -1,0 +1,73 @@
+@import url("general.css");
+
+
+main {
+    background-color: gray;
+    margin-top: 58px;
+    margin-left: 73px;
+    background-color: var(--main-body);
+}
+
+.grid-container {
+
+    display: grid;
+    column-gap: 20px;
+    row-gap: 60px;
+    padding: 40px 30px;
+
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+}
+
+
+.top-flex {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.thumbnail-div {
+    position: relative;
+    cursor: pointer;
+}
+
+
+.vid-description {
+    padding-top: 10px;
+    display: flex;
+}
+
+.profile-pics {
+    width: 46px;
+    height: 46px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.duration {
+    width: fit-content;
+    padding: 3px;
+    color: #fff;
+    background-color: black;
+
+    position: absolute;
+    right: 6px;
+    bottom: 10px;
+}
+.profile-pics img {
+    width: 46px;
+    border-radius: 200px;
+}
+.vid-title {
+    font-weight: 600;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.topic-div {
+    line-height: 1.5;
+}
+.topic-div p {
+    font-size: 12px;
+    color: var(--vid-bottom-text);
+}
+.topic-div .vid-title {
+    margin-bottom: 10px;
+}
