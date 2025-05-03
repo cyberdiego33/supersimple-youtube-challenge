@@ -1,7 +1,7 @@
 :root {
-    --search-bar-border: rgb(204, 204, 204);
-    --search-icon-bc: rgb(247, 247, 247);
-    --voice-search: rgb(248, 248, 248);
+    --search-bar-border: #cccccc;
+    --search-icon-bc: #f7f7f7;
+    --voice-search: #f8f8f8;
     --main-body: rgb(247, 247, 247);
     --vid-bottom-text: #606060;
   }
