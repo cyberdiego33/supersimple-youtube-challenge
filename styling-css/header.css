@@ -109,7 +109,7 @@ img {
 .red-notification {
   position: absolute;
   padding: 1px 5px;
-  background-color: rgb(179, 19, 19);
+  background-color: #b31313;
   border-radius: 300px;
   top: -3px;
   right: -4px;
